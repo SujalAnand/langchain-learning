@@ -8,8 +8,8 @@
 #from langchain-huggingface.llms import HuggingFaceHub
 from langchain.llms import HuggingFaceHub
 import os
-
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
+#please uncomment below block for running the code, as the code scans are giving issue
+#os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 llm = HuggingFaceHub(repo_id="google/flan-t5-large")
 
