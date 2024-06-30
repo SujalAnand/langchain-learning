@@ -11,6 +11,6 @@ pinned: false
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-To Run the project run :
+To run this basic question answer project follow below steps :
 1.  Create a API token from the Hugingface portal and put it in the app.py file under enviroment variable section
 2.  Run the command : streamlit run P1\ simple\ question\ answer/app.py
