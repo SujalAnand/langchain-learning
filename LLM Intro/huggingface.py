@@ -8,9 +8,7 @@
 #from langchain-huggingface.llms import HuggingFaceHub
 from langchain.llms import HuggingFaceHub
 import os
-#please uncomment below block for running the code, as the code scans are giving issue
-#os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
-
+#please add API key code below for running the code, as the code scans are giving issue
 llm = HuggingFaceHub(repo_id="google/flan-t5-large")
 
 our_query = "what is the currency of India"
