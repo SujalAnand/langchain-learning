@@ -9,7 +9,7 @@
 from langchain.llms import HuggingFaceHub
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 llm = HuggingFaceHub(repo_id="google/flan-t5-large")
 
