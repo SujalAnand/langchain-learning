@@ -9,7 +9,7 @@
 from langchain.llms import HuggingFaceHub
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 llm = HuggingFaceHub(repo_id="google/flan-t5-large")
 our_query = "what is the currency of India"
 llm = llm(our_query)
